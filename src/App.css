@@ -1,38 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --blue: #16213E;
+    --navy: #0F3460;
+    --purple: #533483;
+    --red: #E94560;
+    --black: #212121;
+    --lightblue: #23FED6;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    max-width: 1400px; 
+    min-width: 1200px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1, h2, h3, h4, h5 {
+    /* font-family: 'Space Grotesk', sans-serif; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    font-size: 120px;
+    font-family: 'Poppins', sans-serif;
+}
+h2 {
+    font-size: 90px;
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+h4 {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+h5 {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+    font-family: 'Open Sans', sans-serif;
 }

@@ -1,0 +1,40 @@
+.footer {
+    width: 100vw;
+    height: 20vh;
+    background: #000000;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid var(--purple)
+}
+
+p {
+    text-align: left;
+    padding: 0.25em;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+
+.footer img {
+    width: 200px;
+}
+
+.company-info {
+    display: flex;
+}
+
+.address {
+    margin-right: 3em; 
+}
+
+a {
+    color: whitesmoke;
+}
+
+.contact p{
+    text-decoration: underline;
+}
