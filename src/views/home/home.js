@@ -57,8 +57,8 @@ export default function Home() {
                 </div>   */}
             </section>
             <section className="awesome-abilities">
-                <div class="container">
-                    <div class="business-areas">
+                <div className="container">
+                    <div className="business-areas">
                         <div className="business-area">
                         <DesignServicesOutlinedIcon color="primary" className="business-icon" />
                             <h5>Design</h5>
