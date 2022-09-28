@@ -38,3 +38,17 @@ a {
 .contact p{
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 768px) {
+    .footer {
+        height: 30vh;
+        padding: 2em 0;
+    }
+
+    .footer-wrapper {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 0;
+    }
+
+}

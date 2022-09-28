@@ -133,6 +133,21 @@ label a {
 	transform: scale(1);
 }
 
+@media only screen and (max-width: 768px) {
+    label .menu  {
+        right: -75px;
+        top: -75px;
+        z-index: 100;
+        width: 150px;
+        height: 150px;
+    }
+
+    label .hamburger {
+        top: 105px;
+        left: 33px;
+    }
+  }
+
 /* .navbar h5:hover {
     text-decoration: underline;
 } */
