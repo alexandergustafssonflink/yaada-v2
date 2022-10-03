@@ -5,7 +5,7 @@ import logo from '../../images/logo.svg';
 
 function Footer() {
   return (
-        <div className="footer">
+        <div id="contact">
             <div className="container footer-wrapper">
                 <img src={logo} alt="" />
                 <div className="company-info">

@@ -1,4 +1,4 @@
-.footer {
+#contact {
     width: 100vw;
     height: 20vh;
     background: #000000;
@@ -19,7 +19,7 @@ p {
     align-items:  center;
 }
 
-.footer img {
+#contact img {
     width: 200px;
 }
 
@@ -40,7 +40,7 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-    .footer {
+    #contact {
         height: 30vh;
         padding: 2em 0;
     }

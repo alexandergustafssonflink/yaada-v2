@@ -18,7 +18,7 @@ export default function Home() {
       }, [logo]);
     return (
     <div className="home" >
-            <section className="hero">
+            <section id="home">
             <svg width="421" ref={logo} height="146" viewBox="0 0 421 146" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="path-1-outside-1_321_24" maskUnits="userSpaceOnUse" x="-0.464111" y="0.280029" width="420" height="138" fill="black">
                 <rect fill="white" x="-0.464111" y="0.280029" width="420" height="138" className="svg-elem-1"></rect>
@@ -56,37 +56,38 @@ export default function Home() {
                     <h5>digital byrå</h5>
                 </div>   */}
             </section>
-            <section className="awesome-abilities">
+            <section id="about">
                 <div className="container">
                     <div className="business-areas">
                         <div className="business-area">
                         <DesignServicesOutlinedIcon color="primary" className="business-icon" />
                             <h5>Design</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                            <p>Vi designar er hemsida eller digitala produkt från grunden, väldigt gärna i nära samarbete med er.   </p>
                         </div>
                         <div className="business-area">
                             <MobileFriendlyOutlinedIcon  color="primary" className="business-icon" />
                             <h5>Webbutveckling</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                            <p>Vi bygger er hemsida och ser till att den går som en klocka. </p>
                         </div>
                         <div className="business-area">
                             <LocationSearchingOutlinedIcon color="primary" className="business-icon"  />
                             <h5>SEO</h5>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                            <p>Vi optimerar er hemsida, så att ni syns på bästa på möjliga vis hos exempelvis Google. </p>
                         </div>
                     </div>
-                    <Button className="services-btn" variant="contained" color="primary">Våra tjänster</Button>
+                    {/* <Button className="services-btn" variant="contained" color="primary">Våra tjänster</Button> */}
                 </div>
             </section>
             <section className="brag">
                 <div className="container brag-wrapper">
                     <p className="slogan">- We are yet another awesome digital agency -</p>
-                    <h5>Helping companies fulfil their visions through our digital knowledge. As I walk in the valley in the shadow of death I will fear no evil because the lord is with me. Got my mind on my money and money on my mind</h5>
+                    <h5>Vi hjälper företag att nå sin fulla potential genom att utveckla digitala tjänster och hemsidor som är snygga och ligger i teknisk framkant. Dessutom ser vi till att ni blir maximalt synliga på Google. </h5>
+                    {/* <h5>Helping companies fulfil their visions through our digital knowledge. As I walk in the valley in the shadow of death I will fear no evil because the lord is with me. Got my mind on my money and money on my mind</h5> */}
                 </div>
             </section>
-            <section className="cases">
+            <section id="cases">
                 <div className="container">
-                    <h3>Cases</h3>
+                    <h3>Case</h3>
                     <div className="case-wrapper">     
                         <div className="case">
                             <a href="https://a-yoga.se" target="_blank">

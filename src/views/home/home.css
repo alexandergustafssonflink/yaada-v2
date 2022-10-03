@@ -3,7 +3,7 @@
     /* background: var(--black) */
 }
 
-.hero {
+#home {
     height: 90vh;
     width: 100%;
     display: flex;
@@ -12,7 +12,7 @@
     background: #000000;
 }
 
-.hero img {
+#home img {
     width: 100%;
     height: 100%; 
     object-fit: cover;
@@ -56,7 +56,7 @@
     flex-direction: column;
 }
 
-.awesome-abilities {
+#about {
     color: whitesmoke;
     height: 50vh;
     background: var(--black);
@@ -64,7 +64,7 @@
     justify-content: center;
 }
 
-.awesome-abilities .container {
+#about .container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -79,6 +79,7 @@
 
 .business-area {
     padding: 2em;
+    width: 33%;
 }
 
 .business-area h5 {
@@ -96,14 +97,13 @@
     margin-top: 1em !important;
 }
 
-.cases {
+#cases {
     background: var(--black);
     display: flex;
     justify-content: center;
     color: whitesmoke;
     min-height: 50vh;
-    padding-top: 2em;
-    padding-bottom:8em;
+    padding: 2em 0em;
 }
 
 .case-wrapper {
@@ -113,8 +113,8 @@
 }
 
 .img-wrapper {
-    width: 400px; 
-    height: 250px;
+    width: 25em;
+    height: 16em;
     overflow: hidden;
 }
 .img-wrapper img {
@@ -146,19 +146,19 @@
     font-size: 12px;
 }
 
-.cases img:hover {
+#cases img:hover {
         -webkit-transform: scale(1.5);
         transform: scale(1.1);
         cursor: pointer;
 }
 
-.cases h3 {
+#cases h3 {
     text-align: left;
     margin: 0.5em;
 }
 
 @media only screen and (max-width: 768px) {
-    .hero svg {
+    #home svg {
         width: 90%;
     }
     .home {
@@ -172,16 +172,17 @@
 
     .business-area {
         padding: 0 0 2em 0;
+        width: 100%;
     }
 
     .business-area p {
         text-align: center;
     }
-    .awesome-abilities {
+    #about {
         height: auto;
         /* padding-bottom: 3em; */
     }
-    .awesome-abilities h5 {
+    #about h5 {
         margin: 0.5em 0;
     }
 
@@ -198,12 +199,12 @@
         flex-direction: column;
     }
 
-    .cases {
+    #cases {
         padding-top: 0;
         padding-bottom: 3em;
     }
 
-    .cases h3 {
+    #cases h3 {
         margin: 0;
     }
 
@@ -211,7 +212,7 @@
         padding: 2em 0;
     }
 
-    .cases .img-wrapper {
+    #cases .img-wrapper {
         width: 100%;
     }
   }

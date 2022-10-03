@@ -17,9 +17,10 @@ function NavBar() {
                 <input type="checkbox" ref={input} />
                 <span className="menu"> <span className="hamburger"></span> </span>
                 <ul>
-                    <li onClick={closeMenu}><Link to="/"><h5>Home</h5></Link></li>
-                    <li onClick={closeMenu}><Link to="/hej"><h5>About</h5></Link></li>
-                    <li onClick={closeMenu}><Link to="/hej"><h5>Contact</h5></Link></li>
+                    <li onClick={closeMenu}><a href="#home"><h5>Hem</h5></a></li>
+                    <li onClick={closeMenu}><a href="#about"><h5>Vi erbjuder</h5></a></li>
+                    <li onClick={closeMenu}><a href="#cases"><h5>Case</h5></a></li>
+                    <li onClick={closeMenu}><a href="#contact"><h5>Kontakt</h5></a></li>
                 </ul>
             </label>
         </div>
