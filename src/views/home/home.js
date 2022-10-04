@@ -78,8 +78,8 @@ export default function Home() {
         <section className="brag">
             <div className="container brag-wrapper">
                 <p className="slogan">- We are yet another awesome digital agency -</p>
-                <h5 data-aos="fade-up">Vi hjälper er att nå er fulla potential genom att utveckla digitala tjänster och hemsidor som ligger i teknisk framkant.  </h5>
-                <h5 class="brag-google" data-aos="fade-up">Dessutom ser vi till att ni blir maximalt synliga på Google.</h5>
+                <h1 data-aos="fade-up">Vi är en digital byrå i Göteborg som hjälper er att nå er fulla potential genom att utveckla digitala tjänster och hemsidor som ligger i teknisk framkant.  </h1>
+                <h1 class="brag-google" data-aos="fade-up">Dessutom ser vi till att ni blir maximalt synliga på Google.</h1>
             </div>
         </section>
         <section id="cases">
@@ -89,7 +89,7 @@ export default function Home() {
                     <div className="case">
                         <a href="https://a-yoga.se" target="_blank">
                             <div className='img-wrapper' data-aos="zoom-in">
-                                <img src={aYogaImg} alt="" />
+                                <img src={aYogaImg} alt="Ahderinne yoga website" />
                             </div>
                             <h5>Ahderinne yoga</h5>
                         </a>
@@ -102,7 +102,7 @@ export default function Home() {
                     <div className="case">
                         <a href="https://www.livegbg.se" target="_blank">
                             <div className="img-wrapper" data-aos="zoom-in">
-                                <img src={liveGbgImg} alt="" />
+                                <img src={liveGbgImg} alt="LIVE GBG website" />
                             </div>
                             <h5>Live GBG</h5>
                         </a>
@@ -116,7 +116,7 @@ export default function Home() {
                     <div className="case">
                         <a href="https://www.matictribe.com" target="_blank">
                             <div className="img-wrapper" data-aos="zoom-in">
-                                <img src={maticImg} alt="" />
+                                <img src={maticImg} alt="Matic tribe website" />
                             </div>
                         <h5>Matic tribe</h5>
                         </a>
