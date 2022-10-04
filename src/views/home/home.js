@@ -21,7 +21,7 @@ export default function Home() {
       }, [logo]);
     return (
     <div className="home" >
-            <section id="home">
+        <section id="home">
             <svg width="421" ref={logo} height="146" viewBox="0 0 421 146" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <mask id="path-1-outside-1_321_24" maskUnits="userSpaceOnUse" x="-0.464111" y="0.280029" width="420" height="138" fill="black">
                 <rect fill="white" x="-0.464111" y="0.280029" width="420" height="138" className="svg-elem-1"></rect>
@@ -53,91 +53,82 @@ export default function Home() {
                 <path d="M391.06 119.476C391.636 118.348 392.452 117.472 393.508 116.848C394.588 116.224 395.896 115.912 397.432 115.912V119.296H396.568C392.896 119.296 391.06 121.288 391.06 125.272V136H387.784V116.272H391.06V119.476Z" fill="white" className="svg-elem-26"></path>
                 <path d="M399.989 126.064C399.989 124.048 400.397 122.284 401.213 120.772C402.029 119.236 403.145 118.048 404.561 117.208C406.001 116.368 407.597 115.948 409.349 115.948C411.077 115.948 412.577 116.32 413.849 117.064C415.121 117.808 416.069 118.744 416.693 119.872V116.272H420.005V136H416.693V132.328C416.045 133.48 415.073 134.44 413.777 135.208C412.505 135.952 411.017 136.324 409.313 136.324C407.561 136.324 405.977 135.892 404.561 135.028C403.145 134.164 402.029 132.952 401.213 131.392C400.397 129.832 399.989 128.056 399.989 126.064ZM416.693 126.1C416.693 124.612 416.393 123.316 415.793 122.212C415.193 121.108 414.377 120.268 413.345 119.692C412.337 119.092 411.221 118.792 409.997 118.792C408.773 118.792 407.657 119.08 406.649 119.656C405.641 120.232 404.837 121.072 404.237 122.176C403.637 123.28 403.337 124.576 403.337 126.064C403.337 127.576 403.637 128.896 404.237 130.024C404.837 131.128 405.641 131.98 406.649 132.58C407.657 133.156 408.773 133.444 409.997 133.444C411.221 133.444 412.337 133.156 413.345 132.58C414.377 131.98 415.193 131.128 415.793 130.024C416.393 128.896 416.693 127.588 416.693 126.1ZM414.497 110.368C414.497 111.52 414.125 112.444 413.381 113.14C412.661 113.812 411.749 114.148 410.645 114.148C409.565 114.148 408.653 113.8 407.909 113.104C407.165 112.408 406.793 111.496 406.793 110.368C406.793 109.24 407.165 108.328 407.909 107.632C408.653 106.936 409.565 106.588 410.645 106.588C411.749 106.588 412.661 106.936 413.381 107.632C414.125 108.304 414.497 109.216 414.497 110.368ZM412.589 110.332C412.589 109.732 412.397 109.252 412.013 108.892C411.653 108.508 411.197 108.316 410.645 108.316C410.093 108.316 409.625 108.508 409.241 108.892C408.881 109.252 408.701 109.732 408.701 110.332C408.701 110.932 408.881 111.424 409.241 111.808C409.625 112.192 410.093 112.384 410.645 112.384C411.197 112.384 411.653 112.192 412.013 111.808C412.397 111.424 412.589 110.932 412.589 110.332Z" fill="white" className="svg-elem-27"></path>
             </svg>
-                {/* <img src={headerImg} alt="woman coding" />
-                <div className="text">
-                    <h1>yaada</h1>
-                    <h5>digital byrå</h5>
-                </div>   */}
-            </section>
-            <section id="about">
-                <div className="container">
-                    <div className="business-areas">
-                        <div className="business-area" data-aos="fade-right">
-                            <DesignServicesOutlinedIcon color="primary" className="business-icon" />
-                            <h5>Design</h5>
-                            <p>Vi designar er hemsida eller digitala produkt från grunden, väldigt gärna i nära samarbete med er.   </p>
-                        </div>
-                        <div className="business-area" data-aos="fade-up">
-                            <MobileFriendlyOutlinedIcon  color="primary" className="business-icon" />
-                            <h5>Webbutveckling</h5>
-                            <p>Vi bygger er hemsida och ser till att den går som en klocka. </p>
-                        </div>
-                        <div className="business-area" data-aos="fade-left">
-                            <LocationSearchingOutlinedIcon color="primary" className="business-icon"  />
-                            <h5>SEO</h5>
-                            <p>Vi optimerar er hemsida, så att ni syns på bästa på möjliga vis hos exempelvis Google. </p>
+        </section>
+        <section id="about">
+            <div className="container">
+                <div className="business-areas">
+                    <div className="business-area" data-aos="fade-right">
+                        <DesignServicesOutlinedIcon color="primary" className="business-icon" />
+                        <h5>Design</h5>
+                        <p>Vi designar er hemsida eller digitala produkt från grunden, väldigt gärna i nära samarbete med er.   </p>
+                    </div>
+                    <div className="business-area" data-aos="fade-up">
+                        <MobileFriendlyOutlinedIcon  color="primary" className="business-icon" />
+                        <h5>Webbutveckling</h5>
+                        <p>Vi bygger er hemsida och ser till att den går som en klocka. </p>
+                    </div>
+                    <div className="business-area" data-aos="fade-left">
+                        <LocationSearchingOutlinedIcon color="primary" className="business-icon"  />
+                        <h5>SEO</h5>
+                        <p>Vi optimerar er hemsida, så att ni syns på bästa på möjliga vis hos exempelvis Google. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section className="brag">
+            <div className="container brag-wrapper">
+                <p className="slogan">- We are yet another awesome digital agency -</p>
+                <h5 data-aos="fade-up">Vi hjälper er att nå er fulla potential genom att utveckla digitala tjänster och hemsidor som ligger i teknisk framkant.  </h5>
+                <h5 class="brag-google" data-aos="fade-up">Dessutom ser vi till att ni blir maximalt synliga på Google.</h5>
+            </div>
+        </section>
+        <section id="cases">
+            <div className="container">
+                <h3>Case</h3>
+                <div className="case-wrapper">     
+                    <div className="case">
+                        <a href="https://a-yoga.se" target="_blank">
+                            <div className='img-wrapper' data-aos="zoom-in">
+                                <img src={aYogaImg} alt="" />
+                            </div>
+                            <h5>Ahderinne yoga</h5>
+                        </a>
+                        <div className="tech">
+                            <p>JavaScript</p>
+                            <p>SEO</p>
+                            <p>CMS</p>
                         </div>
                     </div>
-                    {/* <Button className="services-btn" variant="contained" color="primary">Våra tjänster</Button> */}
-                </div>
-            </section>
-            <section className="brag">
-                <div className="container brag-wrapper">
-                    <p className="slogan">- We are yet another awesome digital agency -</p>
-                    <h5 data-aos="fade-up">Vi hjälper företag att nå sin fulla potential genom att utveckla digitala tjänster och hemsidor som är snygga och ligger i teknisk framkant.  </h5>
-                    <h5 class="brag-google" data-aos="fade-up">Dessutom ser vi till att ni blir maximalt synliga på Google.</h5>
-                    {/* <h5>Helping companies fulfil their visions through our digital knowledge. As I walk in the valley in the shadow of death I will fear no evil because the lord is with me. Got my mind on my money and money on my mind</h5> */}
-                </div>
-            </section>
-            <section id="cases">
-                <div className="container">
-                    <h3>Case</h3>
-                    <div className="case-wrapper">     
-                        <div className="case">
-                            <a href="https://a-yoga.se" target="_blank">
-                                <div className='img-wrapper' data-aos="zoom-in">
-                                    <img src={aYogaImg} alt="" />
-                                </div>
-                                <h5>Ahderinne yoga</h5>
-                            </a>
-                            <div className="tech">
-                                <p>JavaScript</p>
-                                <p>SEO</p>
-                                <p>CMS</p>
+                    <div className="case">
+                        <a href="https://www.livegbg.se" target="_blank">
+                            <div className="img-wrapper" data-aos="zoom-in">
+                                <img src={liveGbgImg} alt="" />
                             </div>
+                            <h5>Live GBG</h5>
+                        </a>
+                        <div className="tech">
+                            <p>Vue.js</p>
+                            <p>Node.js</p>
+                            <p>Puppeteer</p>
+                            <p>MongoDB</p>
                         </div>
-                        <div className="case">
-                            <a href="https://www.livegbg.se" target="_blank">
-                                <div className="img-wrapper" data-aos="zoom-in">
-                                    <img src={liveGbgImg} alt="" />
-                                </div>
-                                <h5>Live GBG</h5>
-                            </a>
-                            <div className="tech">
-                                <p>Vue.js</p>
-                                <p>Node.js</p>
-                                <p>Puppeteer</p>
-                                <p>MongoDB</p>
+                    </div>
+                    <div className="case">
+                        <a href="https://www.matictribe.com" target="_blank">
+                            <div className="img-wrapper" data-aos="zoom-in">
+                                <img src={maticImg} alt="" />
                             </div>
-                        </div>
-                        <div className="case">
-                            <a href="https://www.matictribe.com" target="_blank">
-                                <div className="img-wrapper" data-aos="zoom-in">
-                                    <img src={maticImg} alt="" />
-                                </div>
-                            <h5>Matic tribe</h5>
-                            </a>
-                            <div className="tech">
-                                <p>Vue.js</p>
-                                <p>HTML</p>
-                                <p>Animations</p>
-                            </div>
+                        <h5>Matic tribe</h5>
+                        </a>
+                        <div className="tech">
+                            <p>Vue.js</p>
+                            <p>HTML</p>
+                            <p>Animations</p>
                         </div>
                     </div>
                 </div>
-            </section>
-
-            {/* <Button variant="contained" children="Hello World"></Button> */}
+            </div>
+        </section>
     </div>
     )
   }
