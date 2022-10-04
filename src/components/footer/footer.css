@@ -39,7 +39,7 @@ a {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
     #contact {
         height: 30vh;
         padding: 2em 0;
@@ -52,3 +52,14 @@ a {
     }
 
 }
+
+@media only screen and (min-width: 700px) and (max-width: 900px) {
+    #contact{
+        height: 15vh;
+    }
+
+    #contact div {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+  }

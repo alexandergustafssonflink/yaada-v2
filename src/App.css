@@ -57,11 +57,18 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
     .container {
         width: 100vw;
-        min-width: unset;
+        min-width: unset !important;
 
         padding: 1em;
+    }
+  }
+
+
+  @media only screen and (min-width: 700px) and (max-width: 900px) {
+    .container {
+        padding: 3em;
     }
   }

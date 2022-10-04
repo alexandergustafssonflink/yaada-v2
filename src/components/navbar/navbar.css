@@ -133,7 +133,7 @@ label a {
 	transform: scale(1);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
     label .menu  {
         right: -75px;
         top: -75px;

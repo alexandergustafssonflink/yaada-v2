@@ -78,8 +78,8 @@ export default function Home() {
         <section className="brag">
             <div className="container brag-wrapper">
                 <p className="slogan">- We are yet another awesome digital agency -</p>
-                <h1 data-aos="fade-up">Vi är en digital byrå i Göteborg som hjälper er att nå er fulla potential genom att utveckla digitala tjänster och hemsidor som ligger i teknisk framkant.  </h1>
-                <h1 class="brag-google" data-aos="fade-up">Dessutom ser vi till att ni blir maximalt synliga på Google.</h1>
+                <h1 data-aos="fade-up">Vi är en digital byrå i Göteborg som hjälper företag att nå sin fulla potential genom att utveckla digitala tjänster och hemsidor som ligger i teknisk framkant.  </h1>
+                <h1 class="brag-google" data-aos="fade-up">Dessutom ser vi till att våra kunder blir maximalt synliga på Google.</h1>
             </div>
         </section>
         <section id="cases">

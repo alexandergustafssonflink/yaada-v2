@@ -48,7 +48,7 @@
 }
 
 .brag-google {
-    margin-top: 0.5em;
+    margin-top: 1em;
 }
 
 .slogan {
@@ -166,7 +166,7 @@
     margin: 0.5em;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 850px) {
     #home svg {
         width: 90%;
     }
