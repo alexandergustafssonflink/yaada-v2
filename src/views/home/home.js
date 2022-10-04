@@ -9,11 +9,14 @@ import React,  { useEffect, useRef } from "react";
 import DesignServicesOutlinedIcon from '@mui/icons-material/DesignServicesOutlined';
 import MobileFriendlyOutlinedIcon from '@mui/icons-material/MobileFriendlyOutlined';
 import LocationSearchingOutlinedIcon from '@mui/icons-material/LocationSearchingOutlined';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 export default function Home() {
     const logo = useRef(null);
     useEffect(() => {
+        AOS.init(); 
         logo.current.classList.add("active")
       }, [logo]);
     return (
@@ -59,17 +62,17 @@ export default function Home() {
             <section id="about">
                 <div className="container">
                     <div className="business-areas">
-                        <div className="business-area">
-                        <DesignServicesOutlinedIcon color="primary" className="business-icon" />
+                        <div className="business-area" data-aos="fade-right">
+                            <DesignServicesOutlinedIcon color="primary" className="business-icon" />
                             <h5>Design</h5>
                             <p>Vi designar er hemsida eller digitala produkt från grunden, väldigt gärna i nära samarbete med er.   </p>
                         </div>
-                        <div className="business-area">
+                        <div className="business-area" data-aos="fade-up">
                             <MobileFriendlyOutlinedIcon  color="primary" className="business-icon" />
                             <h5>Webbutveckling</h5>
                             <p>Vi bygger er hemsida och ser till att den går som en klocka. </p>
                         </div>
-                        <div className="business-area">
+                        <div className="business-area" data-aos="fade-left">
                             <LocationSearchingOutlinedIcon color="primary" className="business-icon"  />
                             <h5>SEO</h5>
                             <p>Vi optimerar er hemsida, så att ni syns på bästa på möjliga vis hos exempelvis Google. </p>
@@ -81,7 +84,8 @@ export default function Home() {
             <section className="brag">
                 <div className="container brag-wrapper">
                     <p className="slogan">- We are yet another awesome digital agency -</p>
-                    <h5>Vi hjälper företag att nå sin fulla potential genom att utveckla digitala tjänster och hemsidor som är snygga och ligger i teknisk framkant. Dessutom ser vi till att ni blir maximalt synliga på Google. </h5>
+                    <h5 data-aos="fade-up">Vi hjälper företag att nå sin fulla potential genom att utveckla digitala tjänster och hemsidor som är snygga och ligger i teknisk framkant.  </h5>
+                    <h5 class="brag-google" data-aos="fade-up">Dessutom ser vi till att ni blir maximalt synliga på Google.</h5>
                     {/* <h5>Helping companies fulfil their visions through our digital knowledge. As I walk in the valley in the shadow of death I will fear no evil because the lord is with me. Got my mind on my money and money on my mind</h5> */}
                 </div>
             </section>
@@ -91,7 +95,7 @@ export default function Home() {
                     <div className="case-wrapper">     
                         <div className="case">
                             <a href="https://a-yoga.se" target="_blank">
-                                <div className='img-wrapper'>
+                                <div className='img-wrapper' data-aos="zoom-in">
                                     <img src={aYogaImg} alt="" />
                                 </div>
                                 <h5>Ahderinne yoga</h5>
@@ -104,7 +108,7 @@ export default function Home() {
                         </div>
                         <div className="case">
                             <a href="https://www.livegbg.se" target="_blank">
-                                <div className="img-wrapper">
+                                <div className="img-wrapper" data-aos="zoom-in">
                                     <img src={liveGbgImg} alt="" />
                                 </div>
                                 <h5>Live GBG</h5>
@@ -118,7 +122,7 @@ export default function Home() {
                         </div>
                         <div className="case">
                             <a href="https://www.matictribe.com" target="_blank">
-                                <div className="img-wrapper">
+                                <div className="img-wrapper" data-aos="zoom-in">
                                     <img src={maticImg} alt="" />
                                 </div>
                             <h5>Matic tribe</h5>
