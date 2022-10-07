@@ -11,6 +11,10 @@ import {
   Link
 } from "react-router-dom";
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-JGQH81Z3YV");
+ReactGA.send("pageview");
 
 const theme = createTheme({
   status: {
